@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  margin: 10px;
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  color: pink;
+}
+nav{
+  background-color: pink;
+}
+footer{
+  background-color: pink;
+}
