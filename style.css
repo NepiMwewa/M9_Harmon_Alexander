@@ -1,43 +1,46 @@
 body{
   margin: 0px;
   padding: 0px;
-  min-width: 1000px;
+  min-width: 400px;
 }
 h1{
-  margin: 10px;
-  font-size: 50px;
+  margin: 1.2rem;
+  font-size: 3rem;
   font-family: cursive;
   text-align: center;
   color: pink;
 }
 h2{
-  font-size: 26px;
+  font-size: 2rem;
   font-family: cursive;
   text-align: center;
   color: pink;
 }
+p{
+  font-size: 1.5rem;
+}
+
 /*Start of Navagation styles*/
 nav{
   background-color: pink;
 }
 nav>ul{
 	list-style-type: none;
-	padding: 5px 0px 5px 0px;
+	padding: 2% 0px 2% 0px;
 	margin: auto;
-	width: 200px;
+  text-align: center;
 	overflow: hidden;
 }
 nav>ul>li{
-  float: left;
+  display: inline;
   color: white;
-  margin: 15px 10px 15px 10px;
+  padding: 3%
 }
 a{
-  display: block;
 
   text-decoration: underline;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 1.5rem;
 }
 a:link{
   color: white;
@@ -54,16 +57,30 @@ article{
 }
 article>figure{
   margin: 0;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
   width: auto;
-  min-width: 1000px;
+  min-width: 400px;
+}
+figcaption{
+  display: none;
 }
 #banner-img{
   width: 100%;
+}
+article>p{
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
 }
 /*End of main article*/
 
 footer{
   background-color: pink;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+h1{
+  color: grey;
+}
 }
