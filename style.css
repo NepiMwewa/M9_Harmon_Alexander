@@ -75,7 +75,29 @@ article>p{
 }
 /*End of main article*/
 
+/*Start of section*/
+section{
+float: left;
+}
+section>article{
+  float: left;
+  width: 25%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.cake-images{
+  width: 100%;
+}
+/*End of section*/
+
+.clear{
+  clear: left;
+}
+
 footer{
+  float: left;
+  width: 100%;
   background-color: pink;
 }
 
