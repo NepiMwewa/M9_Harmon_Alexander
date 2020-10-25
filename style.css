@@ -129,7 +129,28 @@ footer>ul>li{
 /*Start of tablet code*/
 @media (min-width: 768px) and (max-width: 1023px){
 h1{
-  color: grey;
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+  font-family: cursive;
+  text-align: center;
+  color: pink;
+}
+p{
+  font-size: 1.3rem;
+}
+
+/*Start of Navagation styles*/
+nav>ul{
+	padding: 1.5rem 0px 1.5rem 0px;
+}
+a{
+font-size: 1.5rem;
+}
+
+footer>ul>li{
+  font-size: 1.5rem;
 }
 /*End of tablet code*/
 
