@@ -133,15 +133,11 @@ h1{
 }
 h2{
   font-size: 2rem;
-  font-family: cursive;
-  text-align: center;
-  color: pink;
 }
 p{
   font-size: 1.3rem;
 }
 
-/*Start of Navagation styles*/
 nav>ul{
 	padding: 1.5rem 0px 1.5rem 0px;
 }
@@ -157,9 +153,70 @@ footer>ul>li{
 /*Start of desktop code*/
 }
 @media (min-width: 1024px){
-h1{
-  color: green;
-}
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+
+  /*Start of Navagation styles*/
+  nav>ul{
+  	padding: 1.5rem 0px 1.5rem 0px;
+  }
+  nav>ul>li{
+    padding: 1rem;
+  }
+  a{
+  font-size: 1rem;
+  }
+  /*End of Navagation styles*/
+
+  /*Start of Section*/
+  section{
+    width: 85%;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section>article{
+    float: left;
+    width: 20%;
+    min-width: 400px;
+    margin: auto;
+    padding: 2%;
+  }
+  section>article>figure{
+    margin: 0;
+    width: auto;
+    min-width: 400px;
+  }
+  .cake-images{
+    width: 100%;
+  }
+  /*End of Section*/
+
+  /*Start of Footer styles*/
+  footer{
+    float: left;
+    width: 100%;
+  }
+  footer>ul{
+    list-style-type: none;
+    width: 1000px;
+  }
+  footer>ul>li{
+    float: left;
+    font-size: 1rem;
+    margin: 1rem 2px 1rem 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /*End of Footer styles*/
 
 }
 /*End of desktop code*/
